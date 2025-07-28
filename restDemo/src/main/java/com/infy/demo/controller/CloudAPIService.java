@@ -49,7 +49,7 @@ public class CloudAPIService {
 	@PutMapping
 	public String updateCloudVendorDetails(@RequestBody CloudVendor cloudVendor) {
 		cloudVendorService.updateCloudVendor(cloudVendor);
-		return "update sucessfully Done";
+		return "update sucessfully";
 	}
 
 	@DeleteMapping("{vendorId}")
