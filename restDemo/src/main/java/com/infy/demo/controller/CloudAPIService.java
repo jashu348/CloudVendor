@@ -41,7 +41,7 @@ public class CloudAPIService {
 	@GetMapping()
 	public List<CloudVendor> getAllCloudVendorDetails() {
 
-		return cloudVendorService.getAllCloudVendors();
+		return cloudVendorService.getAllCloudVendors():
 
 	}
 
