@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.datasource.jpa.hibernet.ddl_auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.jpa.hibernet.ddl_auto'"
+  },
+  {
+    "name": "spring.datasource.jpa.hibernet.ddl_auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.jpa.hibernet.ddl_auto'"
+  }
+]}
