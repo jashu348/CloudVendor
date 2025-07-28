@@ -35,8 +35,7 @@ public class CloudAPIService {
 	@GetMapping("{vendorId}")
 	public String getCloudVendorDetails(@PathVariable("vendorId") String vendorId) {
 
-		return cloudVendorService.getCloudVendor(vendorId).getVendorName();
-
+		return cloudVendorService.getCloudVendor(vendorId);
 	}
 
 	@GetMapping()
