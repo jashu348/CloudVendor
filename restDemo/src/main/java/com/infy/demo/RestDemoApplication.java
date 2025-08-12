@@ -8,7 +8,7 @@ public class RestDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestDemoApplication.class, args);
-		System.out.println("RestDemoApplication started successfully!");
+		System.out.println("RestDemoApplication started successfully! By Infy");
 	}
 
 }
